@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "preinstall": "azure-devops-npm-auth",
+        "test": "@powershell -NoProfile -ExecutionPolicy Unrestricted -Command dep/Check-AzCliPreReqsWindows.ps1"
+    }
+}
