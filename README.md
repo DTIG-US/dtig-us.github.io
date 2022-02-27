@@ -1,2 +1,6 @@
 # dtig-us.github.io
-Repository for the organization github pages
+
+## Our Home Web Site
+
+We would love to see you at [DTIG](https://www.dtig.us)
+
