@@ -1,24 +1,42 @@
-# Functions
+# DTIG Wiki
 
-## LogInToDevOps _Login-MultipleAzureDevopsTenants.ps1_
+---
 
-  - Allows a user to login to DTIG ADO and select the organization they would like to access.
-  - This can be used in a variety of scripts by importing the function.
+[[_TOC_]]
 
-### Breakdown
+- # [Admin](dtig-wiki/Admin/Admin.md)
+  - ## [Azure](dtig-wiki/Admin/Azure/Azure.md)
+  - ## [ADO](dtig-wiki/Admin/DevOps)
+  - ## [DNS]
+  - ## [Dynamics]
+  - ## [CRM]
+  - ## [O365]
+  - ## [AWS]
+  - ## [GC]
+  - ## [Security]
+  - ## [Web Apps]
 
-The first relevant code piece is here:
+---
 
-`az login -u $username -p $PATToken --allow-no-subscriptions --organization $Organization`
+- # [Development](dtig-wiki/Development/Development.md)
+  - ## [Repositories Basics]
+  - ## [GitHub Repos]
+  - ## [Azure Repos]
+  - ## [IAC]
+  - ## [Orchestration]
 
-  - The `--allow-no-subscriptions` switch lets the user bypass the lack of accessible subscriptions
+---
 
-    ```
-    You have logged in. Now let us find all the subscriptions to which you have access...
-    The following tenants don't contain accessible subscriptions. Use 'az login --allow-no-subscriptions' to have tenant level access.
-    52b4a003-0571-4a91-bbe2-66cdee34d068
-    dce40b33-bbfa-4a15-bdfa-12dced098ddc
-    No subscriptions found.
-    ```
+- # [General Topics](dtig-wiki/General-Topics/)
+  - ## [Linux]
+    - ### [Arch Linux]
+    - ### [Containerization]
+    - ### [Desktop Enviornments]
+  - ## [Microsoft]
+  - ## [Software]
 
-  - The $PATToken variable is a one-time password that you generate using your DevOps account.  [PAT Token](https://dev.azure.com/DigitalTransformationInnovatorsGroup/_usersSettings/tokens)
+---
+
+## Code of Conduct
+
+Please note that this project is released with a [Contributor Code of Conduct](/CODE-OF-CONDUCT). By participating in this project you agree to abide by its terms.
