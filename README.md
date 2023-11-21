@@ -1,5 +1,9 @@
 # dtig-us.github.io
 
+Click [here](/CHANGELOG.md) for the CHANGE LOG
+
+Click [here](/CLIFF_NOTES.md) for the CLIFF NOTES
+
 ## Our Home Web Site
 
 We would love to see you at [DTIG](https://www.dtig.us)
